@@ -1,27 +1,23 @@
-# Laravel PHP Framework
+# Laravel Ticketing
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This is laravel ticketing service done for learning purposes.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Installation
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+To install this service, firstly clone this repository. Then create database and SQL user for the project. When you have done so, configure mySQL connection in environment file, and lastly run these commands: 
 
-## Official Documentation
+    composer install
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+    php artisan migrate
+    
+    php artisan db:seed
+    
+    yarn install
+    
+    gulp --production
 
-## Contributing
+If everything has been executed correctly, application is ready to work.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## Afterthoughts
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+It was one-day long project. I am not 100% pleased with it, as I believe some things might be done better or nicer looking at least, but there was not time to polish it further. If I was asked was is the post important to do in this repository right now, I would answer that changing browser-session authentication to JWT using tymondesigns jwt package for laravel. The second with would be to create more extensive validation logic as the current one only checks if the fields are passed, and that they are strings. The last thing to change would be adding logging in routes.

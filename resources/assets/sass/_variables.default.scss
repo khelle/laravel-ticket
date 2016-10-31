@@ -1,0 +1,57 @@
+// ---------------------------------------------------------------------------------------------------------------------
+// Variables For Custom Parts
+// ---------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Table of Contents
+// ---------------------------------------------------------------------------------------------------------------------
+// Colors
+// Spacing
+// Typography
+// Buttons
+// Navbar
+// Footer
+// Sections
+// Else
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Colors
+// ---------------------------------------------------------------------------------------------------------------------
+// Grayscale and colors for use across app.
+
+$bg-color:                      #f0f0f0 !default;
+$fade-color:                    #cccccc !default;
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Spacing
+// ---------------------------------------------------------------------------------------------------------------------
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+
+$spacer:                        1.2rem !default;
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------------------------------------------------------
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:        "Lato", Helvetica, Arial, sans-serif !default;
+$font-family-serif:             Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:         Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:              $font-family-sans-serif !default;
+$font-family-logo:              Helvetica, Arial, sans-serif !default;
+$font-family-heading:           Helvetica, Arial, sans-serif !default;
+
+$font-size-root:                16px !default;
+
+$font-size-base:                1rem !default;
+$font-size-xlg:                 1.5rem !default;
+$font-size-lg:                  1.2rem !default;
+$font-size-sm:                  .875rem !default;
+$font-size-xs:                  .75rem !default;
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------------------------------------------------------------
+
+$navbar-link-margin:            ($spacer*2) !default;
