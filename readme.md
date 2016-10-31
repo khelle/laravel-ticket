@@ -4,7 +4,18 @@ This is laravel ticketing service done for learning purposes.
 
 ## Installation
 
-To install this service, firstly clone this repository. Then create database and SQL user for the project. When you have done so, configure mySQL connection in environment file, and lastly run these commands: 
+To install this service, firstly clone this repository. Then create database and SQL user for the project and  configure mySQL connection in environment file. The needed options to set are:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_name
+DB_USERNAME=db_user
+DB_PASSWORD=db_pass
+```
+
+Lastly run these commands: 
 
     composer install
 
